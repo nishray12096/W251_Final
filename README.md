@@ -7,3 +7,13 @@ W251_01_Bloom_Cummings_Ayyappan_Velagapudi_Slides.pdf - contains the presented s
 W251_01_Bloom_Cummings_Ayyappan_Velagapudi_WhitePaper.pdf - contains the writeup
 TrainSentiment_RNN.py - contains code to read from Mongo, train an RNN, evaluate, and output basic RMSE for the test set
 
+### final-misc
+
+File includes some commands and configuration files used to stand up the infastructure for project.
+
+This includes
+* Mongo
+* Mongo Shard Cluster
+* Mongo-connector
+* Elastic Search
+* Kibana
