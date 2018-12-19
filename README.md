@@ -1,4 +1,4 @@
-# W251 Final
+# W251 Final - collecting tweets and sentiments and applying the data for analysis and stock price prediction
 # Nishant Velagapudi, Kirby Bloom, Brandon Cummings, Ravi Ayyappan
 
 Contains files for our w251 project - a framework for twitter sentiment with a case study in stock fluctuation prediction.
