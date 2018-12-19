@@ -165,15 +165,6 @@ object TwitterHashTagStream extends App {
      render_json
     })
  
-    //val tweetMap2 = stream.map(status => {
-      
-    //   val myjson =   ("UserID" -> "Ravi")~ ("UserDescription" -> "this is a test description") ~  ("UserScreenName" -> "ravi_screen_name") 
-    //   val render_json = compact(render(myjson))
-    //   render_json
-    //})
-
-    // Keep count of how many Tweets we've received so we can stop automatically
-    // (and not fill up your disk!)
     var totalTweets:Long = 0
 
     val tweetMapjson = tweetMap.map(tw => Document.parse(tw)) 
